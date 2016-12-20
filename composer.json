@@ -1,0 +1,41 @@
+{
+  "name": "franjid/api-wrapper-bundle",
+  "description": "API Wrapper Bundle",
+  "type": "symfony-bundle",
+  "keywords": ["api", "wrapper", "bundle", "symfony"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Fran Iruela",
+      "email": "franjid@gmail.com",
+      "homepage": "https://github.com/franjid"
+    }
+  ],
+  "support": {
+    "email": "Franjid@gmail.com",
+    "issues": "https://github.com/franjid/api-wrapper-bundle/issues",
+    "source": "https://github.com/franjid/api-wrapper-bundle"
+  },
+  "require": {
+    "php":                      "^5.5.9|~7.0",
+    "symfony/framework-bundle": "^2.7|^3.0",
+    "symfony/config":           "~2.3|~3.0",
+    "guzzlehttp/guzzle": "~6.2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "@stable"
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
+  "autoload": {
+    "psr-4": {
+      "Franjid\\ApiWrapperBundle\\": ""
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Franjid\\ApiWrapperBundle\\Tests\\": "Tests/"
+    }
+  }
+}

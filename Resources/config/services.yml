@@ -1,0 +1,3 @@
+services:
+    ApiWrapperBundle.Component.Api.ApiClientFactory:
+        class: Franjid\ApiWrapperBundle\Api\ApiClientFactory
