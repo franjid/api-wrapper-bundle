@@ -3,3 +3,4 @@ bin
 composer.lock
 vendor
 Tests/reports
+coverage-file
