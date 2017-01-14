@@ -14,7 +14,7 @@ interface ApiRequestInterface
     /**
      * @param string $method
      *
-     * @return ApiRequest
+     * @return void
      */
     public function setMethod($method);
 
@@ -27,14 +27,14 @@ interface ApiRequestInterface
      * @param string $name
      * @param string $value
      *
-     * @return ApiRequest
+     * @return void
      */
     public function setHeader($name, $value);
 
     /**
      * @param array $headers
      *
-     * @return ApiRequest
+     * @return void
      */
     public function setHeaders(array $headers);
 
@@ -46,7 +46,7 @@ interface ApiRequestInterface
     /**
      * @param string $uri
      *
-     * @return ApiRequest
+     * @return void
      */
     public function setUri($uri);
 
@@ -57,6 +57,8 @@ interface ApiRequestInterface
 
     /**
      * @param string $body
+     *
+     * @return void
      */
     public function setBody($body);
 
@@ -67,6 +69,8 @@ interface ApiRequestInterface
 
     /**
      * @param array $options
+     *
+     * @return void
      */
     public function setOptions(array $options);
 

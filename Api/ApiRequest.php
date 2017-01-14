@@ -66,8 +66,6 @@ class ApiRequest implements ApiRequestInterface
         foreach ($headers as $key => $value) {
             $this->setHeader($key, $value);
         }
-
-        return $this->request;
     }
 
     /**
