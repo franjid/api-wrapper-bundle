@@ -1,8 +1,8 @@
 {
   "name": "franjid/api-wrapper-bundle",
-  "description": "API Wrapper Bundle",
+  "description": "API Wrapper Bundle. Consume API's from Symfony",
   "type": "symfony-bundle",
-  "keywords": ["api", "wrapper", "bundle", "symfony"],
+  "keywords": ["php", "api", "wrapper", "bundle", "symfony"],
   "license": "MIT",
   "authors": [
     {
