@@ -26,6 +26,12 @@ It has to be used to send requests to API's. Using the different methods you wil
 Object returned when successfully calling **send** method in *Api*. You can get the response status code, headers or body.
 
 ## How to use it
+
+First things first, install package via composer:
+```
+composer require franjid/api-wrapper-bundle
+```
+
 ### Example: adding an API for [Xkcd API](https://xkcd.com/json.html)
 
 First step is to define the API Client in your services config file
