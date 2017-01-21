@@ -34,6 +34,8 @@ composer require franjid/api-wrapper-bundle
 
 ### Example: adding an API for [Xkcd API](https://xkcd.com/json.html)
 
+You can check a project with example code using the bundle in [this repository](https://github.com/franjid/api-wrapper-bundle-example)
+
 First step is to define the API Client in your services config file
 ```
     ApiClientXkcd:
