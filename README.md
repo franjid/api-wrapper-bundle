@@ -32,6 +32,11 @@ First things first, install package via composer:
 composer require franjid/api-wrapper-bundle
 ```
 
+And add the bundle to your AppKernel.php
+```
+new \Franjid\ApiWrapperBundle\ApiWrapperBundle(),
+```
+
 ### Example: adding an API for [Xkcd API](https://xkcd.com/json.html)
 
 You can check a project with example code using the bundle in [this repository](https://github.com/franjid/api-wrapper-bundle-example)
